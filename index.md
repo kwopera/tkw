@@ -2,9 +2,9 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+For **videos**, go to the _link_ below.
 
-[Link to another page](./another-page.html).
+[Kang Wang Youtube Channel](https://www.youtube.com/c/KangWangTenor).
 
 There should be whitespace between paragraphs.
 
