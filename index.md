@@ -19,19 +19,25 @@ More performances being added as they are announced officially
 ## Verdi: La traviata
 
 > 2022.08.25 - 2022.09.04
+> 
 > State Opera of South Australia
+> 
 > Adelaide, Australia
 
 ## Verdi: La traviata
 
 > 2022.10.05 - 2022.10.09
+> 
 > Opera Hong Kong
+> 
 > Hong Kong, China
 
 ## Verdi: Requiem
 
 > 2022.10.27 - 2022.10.28
+> 
 > Melbourne Symphony Orchestra
+> 
 > Melbourne, Australia
 
 ### Header 3
