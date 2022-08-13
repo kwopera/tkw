@@ -4,7 +4,7 @@ layout: default
 
 For his **videos**, click on the _link_ below
 
-[Kang Wang Youtube Channel](https://www.youtube.com/c/KangWangTenor)
+<a href="https://www.youtube.com/c/KangWangTenor" target="_blank">Kang Wang Youtube Channel</a>
 
 Australian-Chinese tenor **Kang Wang** is one of the most sought-after young lyric tenors in the opera world. He is a former member of the Lindemann Young Artist Development Program of the Metropolitan Opera and a finalist in the 2017 Cardiff Singer of the World competition.
 
