@@ -2,9 +2,9 @@
 layout: default
 ---
 
-For **videos**, go to the _link_ below.
+For his **videos**, click on the _link_ below
 
-[Kang Wang Youtube Channel](https://www.youtube.com/c/KangWangTenor).
+[Kang Wang Youtube Channel](https://www.youtube.com/c/KangWangTenor)
 
 Australian-Chinese tenor **Kang Wang** is one of the most sought-after young lyric tenors in the opera world. He is a former member of the Lindemann Young Artist Development Program of the Metropolitan Opera and a finalist in the 2017 Cardiff Singer of the World competition.
 
@@ -12,15 +12,15 @@ In the 2021-2022 season, Mr. Wang makes his house and role debut at Washington N
 
 Last season, Mr. Wang joined Opera Queensland in a performance celebrating the company’s 40th anniversary and for a solo recital with pianist John Woods. Engagements canceled due to the Covid-19 pandemic included performances at the Metropolitan Opera as Tamino in Die Zauberflöte, at Opera Australia as Alfredo, at Kentucky Opera as Rodolfo in La bohème, and at Washington Concert Opera as Gabriele Adorno in Simon Boccanegra. On the concert stage, he had been scheduled to sing Verdi’s Messa da Requiem with the Louisiana Philharmonic and Beethoven’s Symphony No. 9 with the Milwaukee Symphony Orchestra.
 
-# Upcoming Performances
+## SEASON 22/23
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+More performances being added as they are announced officially
 
-## Header 2
+## Verdi: La traviata
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+> 2022.08.25 - 2022.09.04
+> State Opera of South Australia
+> Adelaide, Australia
 
 ### Header 3
 
