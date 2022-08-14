@@ -9,49 +9,9 @@ In the 2021-2022 season, Mr. Wang makes his house and role debut at Washington N
 Last season, Mr. Wang joined Opera Queensland in a performance celebrating the company’s 40th anniversary and for a solo recital with pianist John Woods. Engagements canceled due to the Covid-19 pandemic included performances at the Metropolitan Opera as Tamino in Die Zauberflöte, at Opera Australia as Alfredo, at Kentucky Opera as Rodolfo in La bohème, and at Washington Concert Opera as Gabriele Adorno in Simon Boccanegra. On the concert stage, he had been scheduled to sing Verdi’s Messa da Requiem with the Louisiana Philharmonic and Beethoven’s Symphony No. 9 with the Milwaukee Symphony Orchestra.
 
 
-## SEASON 22/23
+## SEASON 2022/2023
 
 More performances being added as they are announced officially
 
-### Verdi: La traviata
-
-**2022.08.25 - 2022.09.04**
-
-State Opera of South Australia
-
-Adelaide, Australia
-
----
-
-### Verdi: La traviata
-
-**2022.10.05 - 2022.10.09**
-
-Opera Hong Kong
-
-Hong Kong, China
-
----
-
-### Verdi: Requiem
-
-**2022.10.27 - 2022.10.28**
-
-Melbourne Symphony Orchestra
-
-Melbourne, Australia
-
----
-
-## REVIEWS
-
-_“Kang Wang has a herculean voice for the ages, striding through his arias with a rare ease and sheen.”_
-
--- The Australian
-
-
-
-_“… a most beautiful voice that has been likened to liquid gold. It is a near-perfect instrument that is an absolute joy to listen to, matching a powerful and dramatic stage presence.”_
-
--- Limelight Magazine
+2020
 
