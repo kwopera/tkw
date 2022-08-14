@@ -123,7 +123,6 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
-  text-align: center;
 }
 
 ul.downloads {
@@ -241,8 +240,6 @@ footer {
 
   header ul {
     position:absolute;
-    margin:auto; //make the buttons stay in the center.
-    margin-bottom: 1em;
     right:50px;
     top:52px;
   }
