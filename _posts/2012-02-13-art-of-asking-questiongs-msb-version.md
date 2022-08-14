@@ -1,6 +1,10 @@
 ---
 layout: post
-title: "提问的艺术"
+title: "Verdi: La traviata"
+when: "2022.08.25 - 2022.09.03"
+where: "Adelaid, Australia"
+who: "State Opera South Australia"
+link: "https://stateopera.com.au/productions/la-traviata-2022/"
 ---
 
 （作者王亢，本文改编自IT界一篇著名的文章“提问的智慧”（作者Eric Steven Raymond | 原版连接：http://www.catb.org/~esr/faqs/smart-questions.html | 中文翻译连接：http://www.beiww.com/doc/oss/smart-questions.html）
