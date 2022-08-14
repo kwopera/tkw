@@ -12,6 +12,3 @@ Last season, Mr. Wang joined Opera Queensland in a performance celebrating the c
 ## SEASON 2022/2023
 
 More performances being added as they are announced officially
-
-2020
-
