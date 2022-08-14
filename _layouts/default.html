@@ -61,7 +61,8 @@
           </li>
         {% endfor %}
       </ul>
-
+      {% assign reviews = site.posts | where:"url", "reviews.md" | first %}
+      {{ reviews.content }}
       </section>
       <footer>
         {% if site.github.is_project_page %}
