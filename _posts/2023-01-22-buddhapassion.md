@@ -4,5 +4,5 @@ title: "Tan Dun: Buddha Passion"
 when: "2023.01.22"
 where: "London, UK"
 who: "London Philharmonic Orchestra"
-link: "https://stateopera.com.au/productions/la-traviata-2022/"
+link: "https://tickets.lpo.org.uk/events/tan-dun-buddha-passion"
 ---
