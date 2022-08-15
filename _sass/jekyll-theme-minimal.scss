@@ -373,7 +373,7 @@ ul.schedule {
 
 /* Unhide the lightbox when it's the target */
 .lightbox:target {
-  display: block;
+  display: flex;
 }
 
 .lightbox span {
@@ -386,8 +386,8 @@ ul.schedule {
 .lightbox img {
   display: block;
   max-height: 95%;
-  max-width: 100%;
-  margin: 5% auto;
+  max-width: 95%;
+  margin: auto;
 }
 
 div.photogrid {
