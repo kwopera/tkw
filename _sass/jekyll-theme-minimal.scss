@@ -381,6 +381,9 @@ ul.schedule {
   display: flex;
   justify-content: center;
 }
+.lightbox img {
+  max-height: 100%;
+}
 
 div.photogrid {
   display: grid;
