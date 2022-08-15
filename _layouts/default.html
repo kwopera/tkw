@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a><small> Tenor </small></h1>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}<small> Tenor </small</a>></h1>
         <div class="photogrid">
         {% for image in site.static_files %}
           {% if image.path contains 'img/grid' %}
@@ -31,16 +31,15 @@
           {% if image.path contains 'img/full' %}
           <a href="#" class="lightbox" id="{{ image.basename }}">
           <img src="{{ site.baseurl }}{{ image.path }}" alt="image"/> 
-          <!-- <span style="background-image: url('{{ site.baseurl }}{{ image.path }}')"></span> -->
           </a>
           {% endif %}
         {% endfor %}
         <!-- End of Photo Grid -->
       
         <ul class="downloads">
-          <li><a href="https://www.facebook.com/kangwangtenor">Follow on<strong>Facebook</strong></a></li>
-          <li><a href="http://instagram.com/kangwang">Follow on<strong>Instagram</strong></a></li>
-          <li><a href="https://www.youtube.com/c/KangWangTenor">Watch on<strong>YouTube</strong></a></li>
+          <li><a href="https://www.facebook.com/kangwangtenor">Follow on <strong>Facebook</strong></a></li>
+          <li><a href="http://instagram.com/kangwang">Follow on <strong>Instagram</strong></a></li>
+          <li><a href="https://www.youtube.com/c/KangWangTenor">Watch on <strong>YouTube</strong></a></li>
         </ul>
 
         <hr>
