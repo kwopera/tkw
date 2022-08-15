@@ -20,11 +20,11 @@
         <!-- {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %} -->
-
-        {% for image in site.static_files %}
+        {% assign image_files = site.static_files | where: "image", true %}
+        {% for image in image_files %}
           {% if image.path contains 'img/grid' %}
           <a href="#{{ image.basename }}"
-          <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+          <img src="{{ site.baseurl }}{{ image.path }}" alt="image"/>
           </a>
           {% endif %}
         {% endfor %}
