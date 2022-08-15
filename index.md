@@ -9,20 +9,6 @@ In the 2021-2022 season, Mr. Wang makes his house and role debut at Washington N
 Last season, Mr. Wang joined Opera Queensland in a performance celebrating the company’s 40th anniversary and for a solo recital with pianist John Woods. Engagements canceled due to the Covid-19 pandemic included performances at the Metropolitan Opera as Tamino in Die Zauberflöte, at Opera Australia as Alfredo, at Kentucky Opera as Rodolfo in La bohème, and at Washington Concert Opera as Gabriele Adorno in Simon Boccanegra. On the concert stage, he had been scheduled to sing Verdi’s Messa da Requiem with the Louisiana Philharmonic and Beethoven’s Symphony No. 9 with the Milwaukee Symphony Orchestra.
 
 
-### SEASON 2022/2023
-More performances being added as they are announced officially
-
-<ul class="schedule">
-  {% for post in site.posts reversed %}
-    <a href="{{ post.link }}">
-      <li>
-        <h4 class="what">{{ post.title }}</h4>
-        <p class="when">{{ post.when }} &nbsp;</p>
-        <p class="where"><em>{{ post.who }}</em><br/>
-        {{ post.where }}</p>
-      </li>
-    </a>
-  {% endfor %}
-</ul>
+{% include_relative schedule.md %}
 
 {% include_relative reviews.md %}
