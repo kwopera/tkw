@@ -20,13 +20,18 @@
         <!-- {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %} -->
+        <!-- Photo Grid -->
+        <div class="photogrid">
         {% for image in site.static_files %}
           {% if image.path contains 'img/grid' %}
-          <a href="#{{ image.basename }}">
-          <img src="{{ site.baseurl }}{{ image.path }}" alt="image"/>
-          </a>
+          <span class="{{ image.basename }}">
+            <a href="#{{ image.basename }}">
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="image"/>
+            </a>
+          </span>
           {% endif %}
         {% endfor %}
+        </div>
 
         {% for image in site.static_files %}
           {% if image.path contains 'img/full' %}
@@ -35,6 +40,7 @@
           </a>
           {% endif %}
         {% endfor %}
+        <!-- End of Photo Grid -->
       
         <ul class="downloads">
           <li><a href="https://www.facebook.com/kangwangtenor">Follow on<strong>Facebook</strong></a></li>
