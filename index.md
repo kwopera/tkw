@@ -17,7 +17,7 @@ More performances being added as they are announced officially
     <a href="{{ post.link }}" target="_blank">
       <li>
         <h4>{{ post.title }}</h4>
-        <p><strong>{{ post.when }}</strong></p>
+        <p>{{ post.when }}</p>
         <p><em>{{ post.who }}</em><br/>
         {{ post.where }}</p>
       </li>
