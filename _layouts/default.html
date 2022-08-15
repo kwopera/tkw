@@ -24,7 +24,7 @@
         {% for image in site.static_files %}
           {% if image.path contains 'images/grid' %}
           <a href="#{{ image.basename }}"
-              <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+          <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
           </a>
           {% endif %}
         {% endfor %}
@@ -32,7 +32,7 @@
         {% for image in site.static_files %}
           {% if image.path contains 'images/full' %}
           <a href="#" class="lightbox" id="{{ image.basename }}">
-            <span style="background-image: url('{{ site.baseurl }}{{ image.path }}')"></span>
+          <span style="background-image: url('{{ site.baseurl }}{{ image.path }}')"></span>
           </a>
           {% endif %}
         {% endfor %}
@@ -71,9 +71,7 @@
       
       </section>
       <footer>
-        {% if site.github.is_project_page %}
         <p>Represented By<a href="https://imgartists.com/roster/kang-wang/" target="_blank"><br/><img src="./assets/img/imglogo.gif" alt="IMG Artists" style="width: 25%;"/></a></p>
-        {% endif %}
         <p><small>Copyright © 2022</small></p>
       </footer>
     </div>
