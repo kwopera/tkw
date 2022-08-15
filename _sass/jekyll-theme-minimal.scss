@@ -364,6 +364,7 @@ ul.schedule {
 
   /* Translucent background */
   background: rgba(0, 0, 0, 0.8);
+ justify-content: center;
 }
 
 /* Unhide the lightbox when it's the target */
@@ -374,13 +375,11 @@ ul.schedule {
 .lightbox span {
   /* Full width and height */
   display: block;
+  
   width: 100%;
   height: 100%;
-
-  /* Size and position background image */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  display: flex;
+  justify-content: center;
 }
 
 div.photogrid {
