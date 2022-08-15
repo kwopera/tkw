@@ -14,7 +14,7 @@ More performances being added as they are announced officially
 
 <ul class="schedule">
   {% for post in site.posts reversed %}
-    <a href="{{ post.link }}" target="_blank">
+    <a href="{{ post.link }}">
       <li>
         <h4>{{ post.title }}</h4>
         <p>{{ post.when }}</p>
