@@ -2,7 +2,7 @@
 layout: default
 ---
 
-
+<br/>
 ### BIO
 <br/>
 Australian-Chinese tenor _Kang Wang_ is one of the most sought-after young lyric tenors in the opera world. He is a former member of the Lindemann Young Artist Development Program of the Metropolitan Opera and a finalist in the 2017 Cardiff Singer of the World competition.
