@@ -16,9 +16,9 @@ More performances being added as they are announced officially
   {% for post in site.posts reversed %}
     <a href="{{ post.link }}">
       <li>
-        <h4>{{ post.title }}</h4>
+        <h4 class="what">{{ post.title }}</h4>
         <p class="when">{{ post.when }}</p>
-        <p><em>{{ post.who }}</em><br/>
+        <p class="where"><em>{{ post.who }}</em><br/>
         {{ post.where }}</p>
       </li>
     </a>

@@ -295,9 +295,25 @@ ul.schedule {
   display: table;
 }
 
+
+.when {
+  font-weight: bold;
+  grid-area: when;
+}
+
+.where {
+  grid-area: where;
+}
+
+.what {
+  grid-area: what;
+}
+
 .schedule li {
   display: grid;
-  grid-template-columns: 4fr 2fr;
+  grid-template:
+  'what when'
+  'where when' / 2fr 1fr;
   border-bottom: 10px solid white;
   column-gap: 1em;
 }
@@ -312,11 +328,6 @@ ul.schedule {
 .schedule h4 {
   color: #267CB9;
 }
-
-.when {
-  font-weight: bold;
-}
-
 
 .schedule li h3{
   margin-bottom: 5px;
