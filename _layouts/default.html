@@ -22,7 +22,7 @@
         {% endif %} -->
 
         {% for image in site.static_files %}
-          {% if image.path contains 'images/grid' %}
+          {% if image.path contains 'img/grid' %}
           <a href="#{{ image.basename }}"
           <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
           </a>
@@ -30,7 +30,7 @@
         {% endfor %}
 
         {% for image in site.static_files %}
-          {% if image.path contains 'images/full' %}
+          {% if image.path contains 'img/full' %}
           <a href="#" class="lightbox" id="{{ image.basename }}">
           <span style="background-image: url('{{ site.baseurl }}{{ image.path }}')"></span>
           </a>
