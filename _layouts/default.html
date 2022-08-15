@@ -17,14 +17,26 @@
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a><small> Tenor </small></h1>
 
-        {% if site.logo %}
+        <!-- {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-        <!-- <span class="social">
-          <a href="https://www.facebook.com/kangwangtenor" target="_blank"><img src="./assets/img/fb.png" alt="Facebook" /></a>
-          <a href="http://instagram.com/kangwang" target="_blank"><img src="./assets/img/ins.png" alt="Instagram" /></a>
-          <a href="https://www.youtube.com/c/KangWangTenor" target="_blank"><img src="./assets/img/ytb.png" alt="Youtube" /></a>
-        </span> -->
+        {% endif %} -->
+
+        {% for image in site.static_files %}
+          {% if image.path contains 'images/grid' %}
+          <a href="#{{ image.basename }}"
+              <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+          </a>
+          {% endif %}
+        {% endfor %}
+
+        {% for image in site.static_files %}
+          {% if image.path contains 'images/full' %}
+          <a href="#" class="lightbox" id="{{ image.basename }}">
+            <span style="background-image: url('{{ site.baseurl }}{{ image.path }}')"></span>
+          </a>
+          {% endif %}
+        {% endfor %}
+      
         <ul class="downloads">
           <li><a href="https://www.facebook.com/kangwangtenor">Follow on<strong>Facebook</strong></a></li>
           <li><a href="http://instagram.com/kangwang">Follow on<strong>Instagram</strong></a></li>
