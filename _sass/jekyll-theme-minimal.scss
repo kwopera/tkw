@@ -297,9 +297,9 @@ ul.schedule {
 
 .schedule li {
   display: grid;
-  grid-template-columns: 2fr 0.8fr 2fr;
+  grid-template-columns: 2fr 1fr 2fr;
   border-bottom: 10px solid white;
-  column-gap: 0.5em;
+  column-gap: 0.8em;
 }
 
 .schedule li:hover {
@@ -311,6 +311,10 @@ ul.schedule {
 
 .schedule h4 {
   color: #267CB9;
+}
+
+.when {
+  color: black;
 }
 
 
