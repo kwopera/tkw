@@ -341,11 +341,11 @@ ul.schedule {
   margin-bottom:10px;
 }
 
-.social img {
-  margin-right: 5px;
-}
-
 // Lightbox grid
+
+.photogrid img:hover {
+  opacity: 0.3;
+}
 
 .lightbox {
   /* Default to hidden */
