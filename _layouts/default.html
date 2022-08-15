@@ -36,7 +36,8 @@
         {% for image in site.static_files %}
           {% if image.path contains 'img/full' %}
           <a href="#" class="lightbox" id="{{ image.basename }}">
-          <span style="background-image: url('{{ site.baseurl }}{{ image.path }}')"></span>
+          <img src="{{ site.baseurl }}{{ image.path }}" alt="image"/> 
+          <!-- <span style="background-image: url('{{ site.baseurl }}{{ image.path }}')"></span> -->
           </a>
           {% endif %}
         {% endfor %}
