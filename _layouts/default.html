@@ -16,11 +16,6 @@
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a><small> Tenor </small></h1>
-
-        <!-- {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %} -->
-        <!-- Photo Grid -->
         <div class="photogrid">
         {% for image in site.static_files %}
           {% if image.path contains 'img/grid' %}
@@ -32,7 +27,6 @@
           {% endif %}
         {% endfor %}
         </div>
-
         {% for image in site.static_files %}
           {% if image.path contains 'img/full' %}
           <a href="#" class="lightbox" id="{{ image.basename }}">
@@ -51,7 +45,6 @@
 
         <hr>
         
-          
         <h4>CONTACT</h4>
         <p style="line-height: 1.5em;">
           Matthew Horner<br/>
