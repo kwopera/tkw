@@ -1,4 +1,8 @@
-### REVIEWS  
+---
+layout: default
+---
+
+<h3><a href="{{ "/reviews.html" | absolute_url }}">REVIEWS</a></h3>  
 <br/>
 _“Kang Wang has a herculean voice for the ages, striding through his arias with a rare ease and sheen.”_
 
