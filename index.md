@@ -17,7 +17,7 @@ More performances being added as they are announced officially
     <a href="{{ post.link }}">
       <li>
         <h4 class="what">{{ post.title }}</h4>
-        <p class="when">{{ post.when }}</p>
+        <p class="when">{{ post.when }} </p>
         <p class="where"><em>{{ post.who }}</em><br/>
         {{ post.where }}</p>
       </li>
