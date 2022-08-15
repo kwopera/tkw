@@ -13,15 +13,16 @@ Last season, Mr. Wang joined Opera Queensland in a performance celebrating the c
 More performances being added as they are announced officially
 
 <ul class="schedule">
-        {% for post in site.posts reversed %}
-          <li>
-            <h3><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h3>
-            <p><strong>{{ post.when }}</strong></p>
-            <p><em>{{ post.who }}</em><br/>
-            {{ post.where }}</p>
-            <hr>
-          </li>
-        {% endfor %}
-      </ul>
+  {% for post in site.posts reversed %}
+    <a href="{{ post.link }}" target="_blank">
+      <li>
+        <h4>{{ post.title }}</h4>
+        <p><strong>{{ post.when }}</strong></p>
+        <p><em>{{ post.who }}</em><br/>
+        {{ post.where }}</p>
+      </li>
+    </a>
+  {% endfor %}
+</ul>
 
 {% include_relative reviews.md %}

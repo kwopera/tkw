@@ -46,7 +46,6 @@ a {
 
 a:hover, a:focus {
   color:#069;
-  font-weight: bold;
 }
 
 a small {
@@ -293,7 +292,20 @@ footer {
 ul.schedule {
   padding-left: 0;
   list-style-type: none;
+  display: table;
 }
+
+.schedule li {
+  display: grid;
+  grid-template-columns: 2fr 0.8fr 2fr;
+  border-bottom: 10px solid white;
+  column-gap: 0.5em;
+}
+
+.schedule li:hover {
+  background: lightblue;
+}
+
 
 .schedule li h3{
   margin-bottom: 5px;
